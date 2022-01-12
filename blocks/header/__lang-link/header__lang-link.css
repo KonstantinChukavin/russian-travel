@@ -1,0 +1,14 @@
+.header__lang-link {
+    margin: 14px 0px 8px 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
