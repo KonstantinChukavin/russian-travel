@@ -1,0 +1,8 @@
+.place {
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.place:nth-of-type(5n) {
+    padding-bottom: 0;
+}
