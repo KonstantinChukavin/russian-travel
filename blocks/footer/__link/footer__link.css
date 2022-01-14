@@ -1,0 +1,19 @@
+.footer__link {
+    margin: 0;
+    padding-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.footer__link:nth-of-type(5n) {
+    padding-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__link {
+        margin-right: 18px;
+        font-size: 16px;
+        line-height: 18px;
+        padding-bottom: 0;
+    }
+}

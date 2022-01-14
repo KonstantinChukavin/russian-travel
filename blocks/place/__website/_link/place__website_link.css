@@ -2,10 +2,4 @@
     margin: 0;
     font-size: 18px;
     line-height: 22px;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-.place__website_link:hover {
-    text-decoration: underline;
 }
