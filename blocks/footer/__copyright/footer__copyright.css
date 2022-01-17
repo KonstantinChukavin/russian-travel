@@ -17,3 +17,9 @@
         padding-bottom: 0;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .footer__copyright {
+        right: 48px;
+    }
+}

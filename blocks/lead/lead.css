@@ -3,3 +3,9 @@
     padding-top: 48px;
     margin: 0;
 }
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        padding-top: 56px;
+    }
+}

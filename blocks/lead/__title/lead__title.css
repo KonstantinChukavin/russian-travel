@@ -13,3 +13,9 @@
         padding-bottom: 32px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .lead__title {
+        max-width: 720px;
+    }
+}
