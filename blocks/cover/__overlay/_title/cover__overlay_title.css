@@ -1,4 +1,4 @@
-.cover__title {
+.cover__overlay_title {
     margin: 0 auto;
     
     margin-top: 33px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .cover__title {
+    .cover__overlay_title {
         max-width: 560px;
         margin-top: 115px;
         font-size: 72px;
@@ -18,13 +18,13 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .cover__title {
+    .cover__overlay_title {
         margin-top: 196px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .cover__title {
+    .cover__overlay_title {
         margin-top: 245px;
     }
 }
