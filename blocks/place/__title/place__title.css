@@ -3,6 +3,7 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
+    padding-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -12,6 +13,7 @@
         grid-area: header;
         white-space: pre-line;
         max-width: 320px;
+        padding-left: 0;
     }
 }
 

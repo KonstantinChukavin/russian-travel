@@ -11,7 +11,7 @@
     .place  {
         padding-bottom: 75px;
         display: grid;
-        grid-template-columns: 2 1fr;
+        grid-template-columns: minmax(min-content, 1fr) 1fr;
         grid-template-rows: 2 1fr;
         gap: 28px 48px;
         grid-template-areas:
