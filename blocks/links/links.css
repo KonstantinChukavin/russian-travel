@@ -6,5 +6,5 @@
 .links:hover {
     text-decoration: underline;
     opacity: 0.8;
-    transition-duration: .2s;
+    transition-duration: .3s;
 }
