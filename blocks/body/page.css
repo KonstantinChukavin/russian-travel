@@ -1,5 +1,5 @@
 .page {
-    width: 320px;
+    min-width: 320px;
     background: #2A2C2F;
     margin: 0 auto;
     color: #FFFFFF;
@@ -11,23 +11,4 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-}
-
-
-@media screen and (min-width: 768px) {
-    .page {
-        width: 768px;
-    } 
-}
-
-@media screen and (min-width: 1024px) {
-    .page {
-        width: 1024px;
-    } 
-}
-
-@media screen and (min-width: 1280px) {
-    .page {
-        width: 1280px;
-    } 
 }
