@@ -10,8 +10,10 @@
 <body class="page">
     <header class="header">
         <img src="./images/logo/__logo.svg" class="header__Logo" alt="Логотип карта России">
-        <a href="#" class="header__lang-link links">Ru</a>
-        <a href="#" class="header__lang-link links">En</a>
+        <nav class="header__menu">
+            <a href="#" class="header__lang-link links">Ru</a>
+            <a href="#" class="header__lang-link links">En</a>
+        </nav>
     </header>
     <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
@@ -30,7 +32,7 @@
             <li class="intro__list-item">Аэропортов <span class="intro__list-item_font">24</span>1</li>
         </ul>
     </section>
-    <figure class="photo-grid">
+    <section class="photo-grid">
         <img class="photo-grid__item" src="./images/pfoto-grid/1__item.jpg" alt="фото поезд">
         <img class="photo-grid__item" src="./images/pfoto-grid/2__item.jpg" alt="фото облока">
         <img class="photo-grid__item" src="./images/pfoto-grid/3__item.jpg" alt="фото волк">
@@ -43,7 +45,7 @@
         <img class="photo-grid__item" src="./images/pfoto-grid/10__item.jpg" alt="фото Камчатка равнина">
         <img class="photo-grid__item" src="./images/pfoto-grid/11__item.jpg" alt="фото Байкал в горах">
         <img class="photo-grid__item" src="./images/pfoto-grid/12__item.jpg" alt="фото туман в горах">
-    </figure>
+    </section>
     <section class="places">
         <div class="place">
             <h3 class="place__title">Куршская коса</h3>
@@ -112,11 +114,13 @@
         </a>
     </section>
     <footer class="footer">
-        <a class="footer__link links" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link links" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link links" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link links" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link links" href="https://travel.yandex.ru">Путешествия</a>
+        <nav class="footer__links">
+            <a class="footer__link links" href="https://yandex.ru/maps">Карты</a>
+            <a class="footer__link links" href="https://yandex.ru/pogoda">Погода</a>
+            <a class="footer__link links" href="https://rasp.yandex.ru">Расписание</a>
+            <a class="footer__link links" href="https://calendar.yandex.ru">Календарь</a>
+            <a class="footer__link links" href="https://travel.yandex.ru">Путешествия</a>
+        </nav>
         <p class="footer__copyright">© 2022. Константин Чукавин</p>
     </footer>
 </body>

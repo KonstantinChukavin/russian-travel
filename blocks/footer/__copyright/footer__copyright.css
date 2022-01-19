@@ -8,18 +8,9 @@
 
 @media screen and (min-width: 768px) {
     .footer__copyright {
-        position: absolute;
-        bottom: 24px;
-        right: 24px;
         font-size: 14px;
         line-height: 16px;
         padding-top: 0;
         padding-bottom: 0;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .footer__copyright {
-        right: 48px;
     }
 }
