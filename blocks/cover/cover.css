@@ -1,7 +1,6 @@
 .cover {
     margin: 0 auto;
     width: 100%;
-    height: calc(200 / 320 * 100vw);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +11,7 @@
     background-size: cover;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width:1280px) {
     .cover {
         width: calc(100% - 96px);
     }
