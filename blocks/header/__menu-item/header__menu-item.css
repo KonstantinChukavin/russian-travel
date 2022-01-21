@@ -1,10 +1,5 @@
 .header__menu-item {
     margin: 14px 0 8px 18px;
+    padding: 0;
     list-style: none;
-}
-
-@media screen and (min-width: 768px) {
-    .header__lang-link {
-        margin: 18px 0 6px 18px;
-    }
 }

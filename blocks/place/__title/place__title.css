@@ -11,7 +11,6 @@
         font-size: 42px;
         line-height: 46px;
         grid-area: header;
-        white-space: pre-line;
         max-width: 320px;
         padding-left: 0;
     }
